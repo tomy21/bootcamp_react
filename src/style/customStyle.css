@@ -1,0 +1,158 @@
+.header{
+    height: 584px;
+    font-family: 'Poppins', sans-serif;
+    background: #152A46;
+    align-items: center;
+    color: #ffff;
+}
+.header h6{
+    font-size: 14px;
+}
+/* .body-content{
+    height: 100vh;
+    background: #EFF4FA;
+} */
+
+/* Hero style */
+.hero-display{
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hero-text{
+    width: 30%;
+}
+.hero-text span{
+    font-size: 16px;
+    font-weight: 500;
+}
+.hero-text p{
+    font-size: 24px;
+    font-weight: 900;
+}
+.hero-images img{
+    position: relative;
+    width: 819px;
+    height: 528px;
+}
+.hero-images .triangle-blue{
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 304px;
+    right: 490px;
+    border: 140px solid transparent;
+    border-bottom-color: #235597;
+    border-left-color: #235597;
+}
+.hero-images .triangle-yellow{
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 250px;
+    right: 300px;
+    border: 130px solid transparent;
+    border-bottom-color:#FFCD29 ;
+    border-right-color:#FFCD29 ;
+}
+
+
+/* body-content */
+
+.card-content{
+    height: 250vh;
+    background: #EFF4FA;
+}
+.movie-container{
+    width: 100%;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    gap: 10px;
+    margin: auto;
+}
+/* Card */
+.movie-wrapper{
+    border: solid 1px rgb(191, 191, 191);
+    border-radius: 5px;
+    padding: 10px;
+    width: 400px;
+    height: 500px;
+    gap: 5px;
+}
+.movie-title{
+    font-size: 18px;
+    font-weight: 900;
+}
+.movie-date{
+    font-size: 14px;
+    font-weight: 500;
+}
+.movie-wrapper img{
+    width: 100%;
+    height: 70%;
+}
+.movie-vote{
+    font-weight: 800;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: auto;
+    gap: 10px;
+}
+.star{
+    color: #FFCD29;
+}
+.price-order{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.price{
+    display: flex;
+    gap: 20px;
+}
+.harga-coret{
+    text-decoration: line-through;
+    color: rgb(180, 180, 180);
+}
+.harga-net{
+    font-size: 24px;
+    font-weight: bolder;
+    color: #235597;
+}
+.button-cart{
+    background: rgb(179, 255, 179);
+    border: rgb(179, 255, 179) solid 1px;
+    border-radius: 5px;
+    padding: 5px 30px;
+    font-size: 20px;
+    color: green;
+}
+.button-cart:hover{
+    box-shadow: 3px 3px 3px #152A46;
+}
+
+.paginate{
+    width: 89%;
+}
+
+
+/* end card */
+
+
+.header-content{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+.search-input{ 
+    border-radius: 5px;
+    border: solid 1px rgb(191, 191, 191);
+    padding: 10px 20px;
+    width: 400px;
+}
